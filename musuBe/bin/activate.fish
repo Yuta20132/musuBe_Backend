@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/ueharayuuta/Desktop/musuBe_back/musuBe"
+set -gx VIRTUAL_ENV "/Users/ueharayuuta/Desktop/musuBe_back/musube"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -56,7 +56,7 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Output the venv prompt; color taken from the blue of the Python logo.
-        printf "%s%s%s" (set_color 4B8BBE) "(musuBe) " (set_color normal)
+        printf "%s%s%s" (set_color 4B8BBE) "(musube) " (set_color normal)
 
         # Restore the return status of the previous command.
         echo "exit $old_status" | .
@@ -65,5 +65,5 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
     end
 
     set -gx _OLD_FISH_PROMPT_OVERRIDE "$VIRTUAL_ENV"
-    set -gx VIRTUAL_ENV_PROMPT "(musuBe) "
+    set -gx VIRTUAL_ENV_PROMPT "(musube) "
 end
